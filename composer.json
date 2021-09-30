@@ -1,0 +1,22 @@
+{
+  "name": "kiraphp/laravel-proxy-middleware",
+  "description": "Laravel Proxy Middleware",
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "KiraPHP\\LaravelProxyMiddleware\\": "src"
+      }
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "KiraPHP\\LaravelProxyMiddleware\\Providers\\ProxyMiddlewareProvider"
+          ]
+      }
+  },
+  "config": {
+      "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
